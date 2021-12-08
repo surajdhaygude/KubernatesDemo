@@ -6,7 +6,7 @@ metadata:
     app: web
 spec:
   containers:
-    - name: web-ctr
+    - name: web-ctr 
       image: 10507/surajimages:dockerdemoproj
       ports:
         - containerPort: 8082
